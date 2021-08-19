@@ -1,0 +1,13 @@
+name: soil-moisture-rnn
+channels:
+    - conda-forge
+    - defaults
+dependencies:
+    - python=3.9
+    - numpy
+    - pandas
+    - matplotlib
+    - seaborn
+    - tensorflow=2.5.0
+    - ismn
+    - ee
