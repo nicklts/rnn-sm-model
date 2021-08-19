@@ -8,7 +8,9 @@ Miniconda is a minimal installer for conda and the simplest way to get started w
 
 #### Adding Miniconda to the system variables
 Once installed, open the Miniconda command prompt and type `rundll32 sysdm.cpl,EditEnvironmentVariables`
+
 Double-click the 'Path' variable under the 'User' section
+
 Click the 'Edit text' button in the 'Edit' dialog window and add the following string to the existing 'Path' variable value `%UserProfile%\miniconda3\condabin;`
 
 In the Miniconda command prompt, type the following to append the path `setx Path "%Path%%UserProfile%\miniconda3\condabin;"`
