@@ -6,8 +6,13 @@ dependencies:
     - python=3.9
     - numpy
     - pandas
+    - fiona
+    - shapely
+    - rasterio
     - matplotlib
     - seaborn
     - tensorflow=2.5.0
-    - ismn
     - ee
+    - pip
+    - pip:
+        - ismn
